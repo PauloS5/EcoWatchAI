@@ -88,7 +88,7 @@ app.add_middleware(
 
 # Inicializa o cliente da OpenAI apontando para o servidor local exposto no Ngrok (Para os amigos usarem)
 client = OpenAI(
-    base_url="https://clamshell-rescuer-creasing.ngrok-free.dev/v1", 
+    base_url="https://reverse-clash-valiant.ngrok-free.dev/v1", 
     api_key="lm-studio"
 )
 

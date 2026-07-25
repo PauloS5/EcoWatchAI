@@ -3,7 +3,7 @@ from openai import OpenAI
 # Aponta o cliente para o IP do PC no Hotspot
 client = OpenAI(
     # Aqui entra o link do Ngrok com o /v1 no final
-    base_url="https://clamshell-rescuer-creasing.ngrok-free.dev/v1", 
+    base_url="https://reverse-clash-valiant.ngrok-free.dev/v1", 
     api_key="lm-studio"
 )
 
